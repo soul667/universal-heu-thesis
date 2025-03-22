@@ -45,8 +45,7 @@ RUN mkdir -p /usr/share/fonts/truetype/noto \
         -o /usr/share/fonts/truetype/noto/NotoSans-Regular.ttf \
     && curl -L https://github.com/notofonts/noto-cjk/raw/main/Sans/OTF/Japanese/NotoSansCJKjp-Regular.otf \
         -o /usr/share/fonts/truetype/noto/NotoSansCJKjp-Regular.otf \
-    && fc-cache -f -v \
-    && apt-get install fonts-noto-cjk
+    && fc-cache -f -v 
     
 USER $USERNAME
 

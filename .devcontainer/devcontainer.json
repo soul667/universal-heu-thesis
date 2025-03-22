@@ -1,8 +1,9 @@
 {
     "name": "universal-heu-thesis",
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
+    "image": "luobaigu/universal-heu-thesis:1.0 ",
+    // "build": {
+    //     "dockerfile": "Dockerfile"
+    // },
     "customizations": {
         "vscode": {
             "extensions": [
