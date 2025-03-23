@@ -17,8 +17,8 @@ RUN apt-get update && apt-get install -y \
 RUN curl -LO https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz \
     && tar -xf typst-x86_64-unknown-linux-musl.tar.xz \
     && mv typst-x86_64-unknown-linux-musl/typst /usr/local/bin/ \
-    && rm -rf typst-x86_64-unknown-linux-musl*
-
+    && rm -rf typst-x86_64-unknown-linux-musl* \
+    && curl https://sh.rustup.rs -sSf | sh -s -- -y
 # Create a non-root user
 ARG USERNAME=vscode
 ARG USER_UID=1000
@@ -39,14 +39,11 @@ RUN groupadd --gid $USER_GID $USERNAME \
     echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME
 
-# Install some fonts
-RUN mkdir -p /usr/share/fonts/truetype/noto \
-    && curl -L https://github.com/notofonts/noto-fonts/raw/main/hinted/ttf/NotoSans/NotoSans-Regular.ttf \
-        -o /usr/share/fonts/truetype/noto/NotoSans-Regular.ttf \
-    && curl -L https://github.com/notofonts/noto-cjk/raw/main/Sans/OTF/Japanese/NotoSansCJKjp-Regular.otf \
-        -o /usr/share/fonts/truetype/noto/NotoSansCJKjp-Regular.otf \
-    && fc-cache -f -v 
-    
+# Install local fonts
+RUN mkdir -p /usr/share/fonts/truetype/local
+COPY font/* /usr/share/fonts/truetype/local/
+RUN fc-cache -f -v
+
 USER $USERNAME
 
 RUN curl -LsSf https://astral.sh/uv/install.sh | sh &&\
@@ -56,4 +53,3 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 RUN zsh -c 'eval "$(curl https://get.x-cmd.com)" && x theme use el/blue-1'
 ADD .zshrc $HOME
-

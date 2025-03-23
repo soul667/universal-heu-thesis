@@ -1,10 +1,10 @@
-# 哈尔滨工业大学论文模板
+# 哈尔滨工程大学论文模板
 
 [![Typst Package](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhitszosa%2Funiversal-hit-thesis%2Frefs%2Fheads%2Fmain%2Ftypst.toml&query=%24.package.version&prefix=v&logo=typst&label=package&color=239dae
 )](https://typst.app/universe/package/universal-hit-thesis)
 [![Build Templates](https://github.com/hitszosa/universal-hit-thesis/actions/workflows/build-templates.yml/badge.svg?branch=dev)](https://github.com/hitszosa/universal-hit-thesis/actions/workflows/build-templates.yml)
 
-适用于哈尔滨工业大学学位论文的 Typst 模板
+适用于哈尔滨工程大学学位论文的 Typst 模板
 
 ![hit-thesis-typst-cover](https://vonbrank-images.oss-cn-hangzhou.aliyuncs.com/20240426-HIT-Thesis-Typst/hit-thesis-typst-development-cover-01.jpg)
 
@@ -17,7 +17,7 @@
 
 [Typst](https://typst.app/) 是使用 Rust 语言开发的全新文档排版系统，您可以通过编写遵循 Typst 语法规则的文本文档、执行编译命令，来可生成目标格式的 PDF 文档。Typst 有望以 Markdown 级别的简洁语法和编译速度实现 LaTeX 级别的排版能力。
 
-**universal-hit-thesis** 是一套简单易用的哈尔滨工业大学学位论文 Typst 模板，受 [hithesis](https://github.com/hithesis/hithesis) 启发，计划囊括一校三区本科、硕士、博士的学位论文格式。
+**universal-hit-thesis** 是一套简单易用的哈尔滨工程大学学位论文 Typst 模板，受 [hithesis](https://github.com/hithesis/hithesis) 启发，计划囊括一校三区本科、硕士、博士的学位论文格式。
 
 **预览效果**
 

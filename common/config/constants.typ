@@ -22,7 +22,7 @@
   supervisor: "▢▢▢ 教授",
   profession: "▢▢▢ 专业",
   collage: "▢▢▢ 学院",
-  institute: "哈尔滨工业大学",
+  institute: "哈尔滨工程大学",
   year: current-date.year(),
   month: current-date.month(),
   day: current-date.day(),

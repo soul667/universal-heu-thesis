@@ -3,7 +3,7 @@
 // #import "../lib.typ": shenzhen-master // <#模板开发>
 #import shenzhen-master: *
 
-// 参考 哈尔滨工业大学（深圳）全日制硕士研究生学位论文书写范例-理工类-学术型（2023版）.doc 进行编写
+// 参考 哈尔滨工程大学（深圳）全日制硕士研究生学位论文书写范例-理工类-学术型（2023版）.doc 进行编写
 // 编译命令  typst compile ./templates/shenzhen-master.typ --root ./
 // 实时预览  typst watch ./templates/shenzhen-master.typ --root ./
 
@@ -28,9 +28,9 @@
     profession-en: "Master of Engineering",
     specialty: "机械制造及其自动化",
     specialty-en: "Mechanical Manufacturing and Automation",
-    affiliation: "哈尔滨工业大学（深圳）",
+    affiliation: "哈尔滨工程大学（深圳）",
     affiliation-en: "Harbin Institute of Technology, Shenzhen",
-    institute: "哈尔滨工业大学",
+    institute: "哈尔滨工程大学",
     institute-en: "Harbin Institute of Technology",
     // 国内图书分类号
     chinese-library-classification: "××××",

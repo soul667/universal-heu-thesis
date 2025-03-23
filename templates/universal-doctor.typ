@@ -22,7 +22,7 @@
     specialty-en: "Mechanical Manufacturing and Automation",
     affiliation: "机电工程学院",
     affiliation-en: "School of Mechatronics Engineering",
-    institute: "哈尔滨工业大学",
+    institute: "哈尔滨工程大学",
     institute-en: "Harbin Institute of Technology",
     // 国内图书分类号
     chinese-library-classification: "××××",

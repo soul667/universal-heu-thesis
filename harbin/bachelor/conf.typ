@@ -179,7 +179,7 @@
 
   bibliography-state.update(current => bibliography)
 
-  default-header-text-state.update(current => "哈尔滨工业大学本科毕业论文（设计）")
+  default-header-text-state.update(current => "哈尔滨工程大学本科毕业论文（设计）")
 
   special-chapter-titles-state.update(current => current + special-chapter-titles-additional)
 

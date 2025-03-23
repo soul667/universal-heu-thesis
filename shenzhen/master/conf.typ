@@ -185,7 +185,7 @@
 
   bibliography-state.update(current => bibliography)
 
-  default-header-text-state.update(current => "哈尔滨工业大学硕士学位论文")
+  default-header-text-state.update(current => "哈尔滨工程大学硕士学位论文")
 
   special-chapter-titles-state.update(current => current + special-chapter-titles-additional)
 

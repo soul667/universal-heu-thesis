@@ -1,5 +1,5 @@
 #let special-chapter-titles-additional = (
-  原创性声明: "哈尔滨工业大学学位论文原创性声明和使用权限",
+  原创性声明: "哈尔滨工程大学学位论文原创性声明和使用权限",
   原创性声明-en: "Statement of copyright and Letter of authorization",
   成果: "攻读博士学位期间取得创新性成果",
   成果-en: "Innovative achievements for Ph.D",

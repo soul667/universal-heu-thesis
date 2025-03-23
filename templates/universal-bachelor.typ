@@ -1,6 +1,6 @@
-#import "@preview/universal-hit-thesis:0.3.0": universal-bachelor // <#用户使用>
+// #import "@preview/universal-hit-thesis:0.3.0": universal-bachelor // <#用户使用>
 // #import "@local/universal-hit-thesis:0.3.0": universal-bachelor // <#本地部署>
-// #import "../lib.typ": universal-bachelor // <#模板开发>
+#import "../lib.typ": universal-bachelor // <#模板开发>
 #import universal-bachelor: *
 
 // 参考 本科毕业论文（设计）书写范例（理工类）.doc 进行编写
@@ -12,12 +12,12 @@
     // 论文标题，可使用 \n 进行换行
     title-cn: "局部多孔质气体静压轴承关键技术的研究",
     title-en: "RESEARCH ON KEY TECHNOLOGIES OF PARTIAL POROUS EXTERNALLY PRESSURIZED GAS BEARING",
-    author: "▢▢▢",
+    author: "古▢▢",
     student-id: "▢▢▢▢▢▢▢▢▢▢",
     supervisor: "▢▢▢ 教授",
     profession: "机械制造及其自动化",
     collage: "机电工程学院",
-    institute: "哈尔滨工业大学",
+    institute: "哈尔滨工程大学",
     // year: 2024,
     // month: 5,
     // day: 1,

@@ -2,7 +2,7 @@
 
 #let default-header-text-state = state(
   "default-header-text",
-  "哈尔滨工业大学学位论文"
+  "哈尔滨工程大学学位论文"
 )
 
 #let special-chapter-titles-state = state(
