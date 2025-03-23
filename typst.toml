@@ -1,12 +1,12 @@
 [package]
-name = "universal-hit-thesis"
-version = "0.3.0"
+name = "universal-heu-thesis"
+version = "0.1.0"
 entrypoint = "lib.typ"
 authors = ["CHOSER Tech", "HITSZ OSA"]
 license = "MIT"
-description = "哈尔滨工程大学学位论文模板 | Universal Harbin Institute of Technology Thesis"
+description = "哈尔滨工程大学学位论文模板 | Harbin Engineering University"
 repository = "https://github.com/soul667/universal-heu-thesis"
-keywords = ["Harbin Institute of Technology", "thesis"]
+keywords = ["Harbin Engineering University", "thesis"]
 categories = ["thesis"]
 exclude = []
 compiler = "0.13.0"
