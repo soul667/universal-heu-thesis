@@ -155,4 +155,4 @@
 
 测试文献引用 @谌颖1992空间交会控制理论与方法研究
 
-测试文献引用1 
+测试文献引用 @akritasApplicationsSingularvalueDecomposition2004

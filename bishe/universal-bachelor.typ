@@ -32,7 +32,7 @@
   ),
 
   // 参考文献配置
-  bibliography: bibliography.with("hit-thesis-ref.bib", full: true, style: "gb-t-7714-2015-numeric-hit.csl"),
+  bibliography: bibliography.with(("hit-thesis-ref.bib","my.bib","mylib.bib"), full: true, style: "gb-t-7714-2015-numeric-hit.csl"),
 
   abstract-cn: [
     随着制造业和精密工程领域的不断发展，对小工件的精确测量需求日益增加。然而，小工件测量一直是一项复杂而具有挑战性的任务，特别是在被测圆弧零件小于整圆的四分之一且弧长小于10mm的情况下。传统测量方法，如使用三坐标测量，通常会受到场地的限制无法测量，或受人为因素影响较大，导致测量不够准确，而且效率低下。因此需要一种能实现圆弧小于1/4圆弧、圆心测量不准的问题快速准确测量的方案，本课题以此为研究目标，开展小圆弧零件尺寸的测量研究。 
